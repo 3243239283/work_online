@@ -139,12 +139,24 @@ li{list-style: none;}
 	#container .dask .daskbox ul li a i{display:block;}
 	#container .dask .daskbox ul li span.iconfont{position: absolute;width: 23px;height: 23px;top: 23px;left: 23px;background: #333;z-index: 1;display:none;}
 	#container .dask .daskbox ul li:hover span.iconfont{display:block;}
-
+	#container .dask .daskbox ul li div.fortime{width:70px;height:34px;float:left;}
 
 
 	/* 客服中心 */
 	#container .service{width:100%;}
-	#container .service .servicebox{width:1200px;margin:0 auto;height:184px;background: #989090;}
+	#container .service .servicebox{width:1200px;margin:0 auto;height:184px;}
+	#container .service .servicebox h3{line-height: 45px;background:#cacaca;text-align: center;font-size: 25px;}
+	#container .service .servicebox .ser{border: 2px solid #999;height:78px;margin: 30px 0;}
+	#container .service .servicebox .ser ul li{height:35px;float:left;border-right: 1px solid #999;margin-top: 21px;}
+	#container .service .servicebox .ser ul li:last-child{border-right:0;}
+	#container .service .servicebox .ser ul li p.for{text-align: center;font-size: 18px;font-weight: bold;line-height: 35px;}
+	#container .service .servicebox .ser ul li div.fortime{width:70px;height:34px;float:left;}
+	#container .service .servicebox .ser ul li div.fortime p{margin:0;font-size: 12px;line-height: 18px;text-align: center;margin:0;color:#cacaca;}
+	#container .service .servicebox .ser ul li div.forbtn{width:439px;height:34px;float:left;}
+	#container .service .servicebox .ser ul li div.forbtn a{display:block;float:left;height:34px;line-height: 34px;margin: 0 20px 0 10px;color: #000000;text-decoration: none;}
+
+
+
 	/* 办公系列产品 */
 	#container .office{width:100%;}
 	#container .office div{width:1200px;height:560px;margin:0 auto 50px;background: #c5b9b9;}
