@@ -1,0 +1,117 @@
+*{margin:0;padding: 0;}
+body, button, input, select, textarea {font: 12px/1.5 tahoma,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+}
+a{text-decoration: none;}
+li{list-style: none;}
+
+/* footer部分样式 */
+#header{width: 100%;background: #F5F5F5;border-bottom: 1px solid #EEE;}
+#header .head{margin: 0 auto;width: 950px;height: 35px;background: #F5F5F5;-webkit-backface-visibility: hidden;}
+#J_SiteNavBdL{float:left;}
+#J_LoginInfo{float:left;}
+.menu-hd {z-index: 10002;position: relative;padding: 0 6px;height: 35px;line-height: 35px;_display: inline;_zoom: 1;}
+.menu{float:left;}
+.menu .menu-hd a {float: left;margin-right: 7px;font-size: 12px;color: #6C6C6C;}
+.menu .menu-hd a:hover{color:#F22E00;}
+.h {color: #F22E00!important;}
+.mobile{float:left;}
+
+#J_SiteNavBdR{float:right;}
+.site-nav-bd-r .site-nav-pipe {float: left;height: 35px;line-height: 35px;}
+
+/* 内容区域 */
+	/* 搜索部分1 */
+	#container .search{position: relative;z-index: 1999;min-width: 950px;width: auto;border-bottom: 1px dotted #f40;background-color: #FFF;}
+	#container .search .searchbox{position: relative;width: 1140px;height: 70px;max-width: 1190px;margin: 0 auto;min-width: 950px;color: #3c3c3c;}
+	/* 搜索部分2 */
+	#container .search_two{max-height: 150px;overflow: hidden;padding-bottom: 0;position: relative;}
+	#container .search_two .layout{width: 950px;margin:0 auto;}
+	/* banner部分 */
+	#container .banner{width: 100%;height: 625px;background: #efefef;}
+	/* 满减 */
+	#container .fullcut{width:100%;}
+	#container .fullcut .fullbox{width:1200px;margin:0 auto;height:180px;background: #b9a4a4;}
+	/* 领券 */
+	#container .coupons{width:100%;}
+	#container .coupons .coubox{width:1200px;margin:0 auto;height:180px;background: #c5b9b9;}
+	/* 促销 */
+	#container .promotion{width:100%;}
+	#container .promotion .probox{width:1200px;margin:0 auto;height:490px;background: #989090;}
+	/* 产品 */
+	#container .dask{width:100%;}
+	#container .dask .daskbox{width:1200px;margin:0 auto;height:250px;background: #c5b9b9;}
+	/* 客服中心 */
+	#container .service{width:100%;}
+	#container .service .servicebox{width:1200px;margin:0 auto;height:184px;background: #989090;}
+	/* 办公系列产品 */
+	#container .office{width:100%;}
+	#container .office div{width:1200px;height:560px;margin:0 auto 50px;background: #c5b9b9;}
+	/* 收藏 */
+	#container .collection{width:100%;}
+	#container .collection .cobox{width:1200px;margin:0 auto 50px;height:120px;background: #989090;}
+	/* 底部导航 */
+	#container .navigation{width:100%;}
+	#container .nabox{width:1200px;margin:0 auto 50px;height:180px;background: #c5b9b9;}
+	/*旺铺推荐*/
+	#container #copyright {text-align: center;padding: 10px 0;}
+
+/* 底部 */
+#footer .g_foot{width: 960px;margin: 0 auto;font: 12px/1.5 tahoma,arial,宋体b8b\4f53;padding: 7px 0 9px;color: #b0b0b0;text-align: left !important;position: relative;clear: both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
