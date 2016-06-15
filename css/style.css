@@ -23,23 +23,125 @@ li{list-style: none;}
 	/* 搜索部分1 */
 	#container .search{position: relative;z-index: 1999;min-width: 950px;width: auto;border-bottom: 1px dotted #f40;background-color: #FFF;}
 	#container .search .searchbox{position: relative;width: 1140px;height: 70px;max-width: 1190px;margin: 0 auto;min-width: 950px;color: #3c3c3c;}
+	#container .search .searchbox .logo-search{width: 130px;height: 70px;float: left;}
+	#container .search .searchbox .logo-search img{margin-top: 13px;}
+	#container .search .searchbox .shop-summary{width: 500px;height:100%;float:left;}
+	#container .search .searchbox .shop-summary .qi{height: 100%;float:left;}
+	#container .search .searchbox .shop-summary .qi img{margin-top: 12px;border-right: 1px solid #f1f1f1;padding: 0 10px;}
+	.shop-name{width: 170px;height: 40px;float:left;padding: 0 10px;margin-top: 15px;border-right: 1px solid #f1f1f1;}
+	.shop-service-info{float: left;margin-top: 15px;height: 40px;min-height: 40px;width: 120px;margin-left: 0;padding: 0 0 0 10px;border-left: 1px solid #f1f1f1;}
+	.shop-service-info .shop-service-info-list .shop-service-info-item {width: 40px;float: left;text-align: left;}
+	.shop-service-info .shop-service-info-list .shop-service-info-item .title {display: block;color: #333;}
+	.shop-service-info .shop-service-info-list .shop-service-info-item .rateinfo {display: block;color: #333;}
+	.shop-service-info .shop-service-info-list .shop-service-info-item .rateinfo em {width: 24px;float: left;text-align: center;}
+	.tb-header-search {position: absolute;top: 12px;right: 0;}
+	.search-panel {width: 430px;}
+	.search-bottom {clear: both;float: right;text-align: right;white-space: nowrap;padding: 5px 0;height: 16px;line-height: 16px;}
+	.search-buttons {position: relative;z-index: 1;float: right;background-color: #fff;}
+	.search-panel-fields {height: 30px;position: relative;zoom: 1;overflow: hidden;background: #f40;}
+	.search-button {cursor: pointer;border: 0;font-size: 12px;float: left;width: 72px;height: 30px;background-color: #f40;
+    color: #fff;margin-left: -1px;}
+    .search-button.secondary {
+    background-color: #ffe4d0;
+    color: #f40;
+    border: 1px solid #ffb086;
+    margin-left: 3px;
+}.search-combobox {
+    margin-left: 2px;
+    margin-right: 0;
+    margin-top: 2px;
+    height: 26px;
+    background: #fff;
+}.search-combobox-input-wrap {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}.search-panel-fields .search-combobox-input-wrap input {
+    margin-left: 0;
+    margin-top: 0;
+}.search-panel-fields input {
+    font-size: 14px;
+    position: relative;
+    height: 20px;
+    line-height: 20px;
+    padding: 3px;
+    margin: 2px 0 0 2px;
+    vertical-align: middle;
+    border: 0 none;
+    z-index: 2;
+    width: 100%;
+    outline: 0;
+    text-indent: 5px;
+}
+.weitao-popup {
+    border: 1px solid #dfdfdf;
+    padding-top: 5px;
+    text-align: center;
+    background: #fff;
+    width: 148px;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    display: none;
+}.header-enterprise-tb .logo-search img {
+    width: 107px;
+    margin-top: 0;
+}
+
+
+
+
+
+
+
+
+
 	/* 搜索部分2 */
-	#container .search_two{max-height: 150px;overflow: hidden;padding-bottom: 0;position: relative;}
-	#container .search_two .layout{width: 950px;margin:0 auto;}
+	#container .search_two{width: 100%;max-height: 150px;overflow: hidden;padding-bottom: 0;position: relative;}
+	#container .search_two .layout{width: 1030px;margin: 0 auto;height: 100px;}
+	#container .search_two .layout .laimg{width: 324px;height: 100%;float: left;}
+	#container .search_two .layout .laimg img{margin-top: 12px;}
+	#container .search_two .layout .guanzhu{width: 30px;height: 100%;float:left;background: red;}
+	#container .search_two .layout .se_two{width: 235px;height: 100%;float:left;margin:0 90px;}
+	#container .search_two .layout .se_two input{width: 100%;border-radius: 10px;margin: 20px 0 5px;height: 20px;}
+	#container .search_two .layout .se_two p{text-align: center;line-height: 30px;}
+	#container .search_two .layout .se_two p a{color: #999;}
+	#container .search_two .layout .switch{width:230px;height: 100px;float:right;background: #efefef;}
+
 	/* banner部分 */
 	#container .banner{width: 100%;height: 625px;background: #efefef;}
+	.banner img{width: 100%;height:625px !important;}
+
 	/* 满减 */
 	#container .fullcut{width:100%;}
-	#container .fullcut .fullbox{width:1200px;margin:0 auto;height:180px;background: #b9a4a4;}
+	#container .fullcut .fullbox{width:1200px;margin:0 auto;height:180px;background: url(../img/fullbox.png);}
+
 	/* 领券 */
 	#container .coupons{width:100%;}
-	#container .coupons .coubox{width:1200px;margin:0 auto;height:180px;background: #c5b9b9;}
+	#container .coupons .coubox{width:1200px;margin:0 auto;height:200px;background: url(../img/coubox.png) no-repeat center;}
+	#container .coupons .coubox .boxtlt{width: 925px;height: 100%;float:right;}
+	#container .coupons .coubox .boxtlt ul li{position:relative;width: 160px;height: 160px;border-radius: 50%;float: left;margin: 20px 83px 0 0;}
+	#container .coupons .coubox .boxtlt ul li:last-child{margin-right:0;}
+	#container .coupons .coubox .boxtlt ul li .box_btn{display:block;height: 100%;width: 100%;border-radius: 50%;}
+	#container .coupons .coubox .boxtlt ul li .box_txt{position:absolute;width:100%;height:100%;top:0;left: 0;border-radius: 50%;display:none;background: #e43f71;}
+	#container .coupons .coubox .boxtlt ul li:hover .box_txt{display:block;}
+	#container .coupons .coubox .boxtlt ul li .box_txt p{font-size: 25px;line-height: 40px;font-weight: bold;color: #FFF;text-align: center;}
+	#container .coupons .coubox .boxtlt ul li .box_txt p:first-child{margin: 30px 0 5px 0;font-size: 30px;}
+
 	/* 促销 */
 	#container .promotion{width:100%;}
-	#container .promotion .probox{width:1200px;margin:0 auto;height:490px;background: #989090;}
+	#container .promotion .probox{width:1200px;margin:0 auto;height:490px;background: url(../img/probox.png) no-repeat;margin-bottom: 15px;}
 	/* 产品 */
 	#container .dask{width:100%;}
 	#container .dask .daskbox{width:1200px;margin:0 auto;height:250px;background: #c5b9b9;}
+	#container .dask .daskbox ul li{position:relative;}
+	#container .dask .daskbox ul li a{width:200px;height: 70px;padding: 0;margin: 0;line-height: 30px;text-align: center;}
+	#container .dask .daskbox ul li a i{display:block;}
+	#container .dask .daskbox ul li span.iconfont{position: absolute;width: 23px;height: 23px;top: 23px;left: 23px;background: #333;z-index: 1;display:none;}
+	#container .dask .daskbox ul li:hover span.iconfont{display:block;}
+
+
+
 	/* 客服中心 */
 	#container .service{width:100%;}
 	#container .service .servicebox{width:1200px;margin:0 auto;height:184px;background: #989090;}
