@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
 	<title>测试</title>
+	<!-- iconfont图标 -->
+	<link rel="stylesheet" href="../module/iconfont/iconfont.css">
+
 	<!-- tab选项卡插件 -->
 	<link href="../module/myfocus/css.css" rel="stylesheet" type="text/css"/>
 	<script src="../module/myfocus/myfocus.js"></script>
@@ -40,38 +43,69 @@
 		    	</li>
 		   		<li class="J_Menu menu my-taobao">
 		    		<div class="menu-hd J_MenuMyTaobao">
-		     			<a href="javascript:">我的淘宝</a>
+		     			<span>我的淘宝</span>
+		     			<i class="iconfont">&#xe600;</i>
+		    		</div>
+		    		<div class="menulist">
+		    			<a href="javascript:">已买到的宝贝</a>
+		    			<a href="javascript:">我的足迹</a>
+		    			<a href="javascript:">爱逛街</a>
+		    			<a href="javascript:">淘宝达人</a>
+		    			<a href="javascript:">新款</a>
 		    		</div>
 				</li>
 		   		<li id="J_MiniCart" class="J_Menu menu menu-empty mini-cart">
 		    		<div class="menu-hd">
-		     			<a href="javascript:" id="mc-menu-hd">购物车</a>
+		    			<i class="iconfont">&#xe602;</i>
+		     			<span>购物车</span>
+		     			<i class="iconfont">&#xe600;</i>
 		    		</div>
 		    	</li>
 		   		<li class="J_Menu menu favorite">
 		    		<div class="menu-hd">
-		     			<a href="javascript:">收藏夹</a>
+		    			<i class="iconfont">&#xe601;</i>
+		     			<span>收藏夹</span>
+						<i class="iconfont">&#xe600;</i>
+		    		</div>
+		    		<div class="menulist">
+		    			<a href="javascript:">收藏的宝贝</a>
+		    			<a href="javascript:">店铺</a>
 		    		</div>
 		    	</li>
 		   		<li class="menu guide">
 		    		<div class="menu-hd">
-		     			<a href="javascript:">商品分类</a>
+		     			<span>商品分类</span>
 		    		</div>
 		    	</li>
 		   		<li class="site-nav-pipe">|</li>
 		   		<li class="J_Menu menu seller-center">
 		    		<div class="menu-hd">
-		     			<a href="javascript:">卖家中心</a>
+		     			<span>卖家中心</span>
+		     			<i class="iconfont">&#xe600;</i>
+		    		</div>
+		    		<div class="menulist">
+		    			<a href="javascript:">免费开店</a>
+		    			<a href="javascript:">已卖出的宝贝</a>
+		    			<a href="javascript:">出售中的宝贝</a>
+		    			<a href="javascript:">卖家服务市场</a>
+		    			<a href="javascript:">卖家培训中心</a>
 		    		</div>
 		    	</li>
 		   		<li class="J_Menu menu service">
 		    		<div class="menu-hd">
-		     			<a href="javascript:">联系客服</a>
+		     			<span>联系客服</span>
+		     			<i class="iconfont">&#xe600;</i>
+		    		</div>
+		    		<div class="menulist">
+		    			<a href="javascript:">消费者客服</a>
+		    			<a href="javascript:">卖家客服</a>
 		    		</div>
 		    	</li>
 		   		<li id="J_SiteMap" class="J_Menu menu site-map">
 		    		<div class="menu-hd">
-		     			<a href="javascript:">网站导航</a>
+		     			<i class="iconfont">&#xe603;</i>
+						<span>网站导航</span>
+		     			<i class="iconfont">&#xe600;</i>
 		    		</div>
 		    	</li>
 		  	</ul>
@@ -191,7 +225,32 @@
 
 		<!-- 右侧固定客服导航栏 -->
 		<div class="customer">
-			
+			<a class="help" href="javascript:"></a>
+			<div class="skin-box-bd"> 
+				<ul> 
+				    <li class="service-block first-block"> 
+				    	<a class="shop-name" href="javascript:"><span>宜达办公文具用品企业</span></a> 
+				    	<span class="ww-light ww-large">
+				    		<a href="javascript:" class="ww-inline ww-online" title="点此可以直接和卖家交流选好的宝贝，或相互交流网购体验，还支持语音视频噢。"></a>
+				    	</span> 
+				    </li> 
+				    <li class="service-block" style="display: none;"> <h4>在线客服</h4> 
+						<ul class="service-content wws"> 
+				    	</ul> 
+					    <div class="more-WW"> 
+					    	<span>更多</span> 
+					    	<i class="triangle"></i> 
+					    </div> 
+				    </li> 
+				    <li class="service-block"> 
+				    	<h4>工作时间</h4> 
+					    <ul class="service-content"> 
+					    	<li><span class="date">周一至周五</span>：<span class="time">9:00-21:00</span></li> 
+					    	<li><span class="date">周六至周日</span>：<span class="time">0:00-24:00</span></li>
+					    </ul> 
+				    </li> 
+				</ul> 
+			</div>
 		</div>
 		<!-- 右侧固定客服导航栏end -->
 

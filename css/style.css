@@ -3,31 +3,42 @@ body, button, input, select, textarea {font: 12px/1.5 tahoma,arial,'Hiragino San
 a{text-decoration: none;}
 li{list-style: none;}
 
-/* footer部分样式 */
+/* header部分样式 */
 #header{width: 100%;background: #F5F5F5;border-bottom: 1px solid #EEE;}
 #header .head{margin: 0 auto;width: 950px;height: 35px;background: #F5F5F5;-webkit-backface-visibility: hidden;}
 #J_SiteNavBdL{float:left;}
 #J_LoginInfo{float:left;}
 .menu-hd {z-index: 10002;position: relative;padding: 0 6px;height: 35px;line-height: 35px;_display: inline;_zoom: 1;}
 .menu{float:left;}
-.menu .menu-hd a {float: left;margin-right: 7px;font-size: 12px;color: #6C6C6C;}
-.menu .menu-hd a:hover{color:#F22E00;}
+.menu .menu-hd a {float: left;margin-right: 7px;font-size: 12px;color: #6C6C6C;text-decoration: none;}
+.menu .menu-hd span {float: left;font-size: 12px;color: #6C6C6C;text-decoration: none;}
+.menu .menu-hd i.iconfont{font-size: 20px;float:left;}
+.menu .menu-hd span:hover{color:#F22E00;}
 .h {color: #F22E00!important;}
 .mobile{float:left;}
-
 #J_SiteNavBdR{float:right;}
+#J_SiteNavBdR li{position:relative;}
+#J_SiteNavBdR li .menulist{width: 90px;display:none;z-index:4;position:absolute;top:35px;left:0px;background:#FFF;color:#000;padding: 5px 0;}
+#J_SiteNavBdR li:hover{background:#FFF;}
+#J_SiteNavBdR li:hover>.menulist{display:block;}
+
+
+#J_SiteNavBdR li .menulist a{font-size: 12px;text-decoration: none;display: block; padding: 0 5px;line-height: 28px;white-space: nowrap;color: #6C6C6C;}
+#J_SiteNavBdR li .menulist a:hover{background:#efefef;}
+
+
 .site-nav-bd-r .site-nav-pipe {float: left;height: 35px;line-height: 35px;}
 
 /* 内容区域 */
 	/* 搜索部分1 */
-	#container .search{position: relative;z-index: 1999;min-width: 950px;width: auto;border-bottom: 1px dotted #f40;background-color: #FFF;}
+	#container .search{position: relative;z-index: 3;min-width: 950px;width: auto;border-bottom: 1px dotted #f40;background-color: #FFF;}
 	#container .search .searchbox{position: relative;width: 1140px;height: 70px;max-width: 1190px;margin: 0 auto;min-width: 950px;color: #3c3c3c;}
 	#container .search .searchbox .logo-search{width: 130px;height: 70px;float: left;}
 	#container .search .searchbox .logo-search img{margin-top: 13px;}
 	#container .search .searchbox .shop-summary{width: 500px;height:100%;float:left;}
 	#container .search .searchbox .shop-summary .qi{height: 100%;float:left;}
 	#container .search .searchbox .shop-summary .qi img{margin-top: 12px;border-right: 1px solid #f1f1f1;padding: 0 10px;}
-	.shop-name{width: 170px;height: 40px;float:left;padding: 0 10px;margin-top: 15px;border-right: 1px solid #f1f1f1;}
+	.shop-name{width: 170px;height: 40px;float:left;line-height: 40px;padding: 0;margin-top: 15px;border-right: 1px solid #f1f1f1;}
 	.shop-service-info{float: left;margin-top: 15px;height: 40px;min-height: 40px;width: 120px;margin-left: 0;padding: 0 0 0 10px;border-left: 1px solid #f1f1f1;}
 	.shop-service-info .shop-service-info-list .shop-service-info-item {width: 40px;float: left;text-align: left;}
 	.shop-service-info .shop-service-info-list .shop-service-info-item .title {display: block;color: #333;}
@@ -65,7 +76,18 @@ li{list-style: none;}
 	.banner img{width: 100%;height:625px !important;}
 	
 	/*右侧固定客服部分*/
-	.customer{width: 51px;height: 57px;border:1px solid #efefef;position: fixed;right: 50px;top:700px;background: rgba(225,225,225,0.5);}
+	.customer{width: 51px;height: 57px;border:1px solid #efefef;position: fixed;right: 50px;top:440px;background: rgba(225,225,225,0.5);}
+	.customer a.help{display:block;width:100%;height:100%;background:url(../img/kefu.gif);}
+	.skin-box-bd {display:none;width: 188px;border-width: 1px 1px 0;border-style: solid;border-color: #e2e2e2;
+    position: absolute;left: -189px;top:-100px;background-color: #fff;font-size: 12px;}
+	.customer:hover .skin-box-bd{display:block;}
+	.skin-box-bd .service-block {padding: 10px 0 10px 20px;border-bottom: 1px solid #e2e2e2;background-color: #fff;}
+	.skin-box-bd span {color: #333;}
+	.ww-large a {width: 67px;background:url(../img/callme.gif);height: 20px;}
+	.ww-inline {display: inline-block;vertical-align: text-bottom;}
+	.skin-box-bd h4 {color: #333;font-size: 12px;font-weight: 700;margin-bottom: 15px;}
+	.skin-box-bd .service-content li {margin-bottom: 5px;}
+	.skin-box-bd .date {margin-right: 14px;}
 
 	/* 满减 */
 	#container .fullcut{width:100%;}
