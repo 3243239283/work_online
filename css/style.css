@@ -102,13 +102,13 @@ li{list-style: none;}
 	.header-enterprise-tb .logo-search img {width: 107px;margin-top: 0;}
 
 	/* 搜索部分2 */
-	#container .search_two{background:url(../img/search2banner.jpg) no-repeat center top;width: 100%;height: 150px;overflow: hidden;padding-bottom: 0;position: relative;}
-	#container .search_two .layout{width: 1030px;margin: 0 auto;height: 100px;}
+	#container .search_two{background:url(../img/search2banner.jpg) no-repeat center top;width: 100%;height: 150px;overflow: hidden;padding-bottom: 0;}
+	#container .search_two .layout{width: 1030px;margin: 0 auto;height: 100px;position:relative;}
 	#container .search_two .layout .laimg img{margin-top: 12px;}
-	#container .search_two .layout .guanzhu{width: 20px;height: 56px;background:url(../img/guanzhu.gif);position: absolute;top: 20px;left: 400px;border-radius: 10px;}
+	#container .search_two .layout .guanzhu{width: 20px;height: 56px;background:url(../img/guanzhu.gif);position: absolute;top: 20px;left: 240px;border-radius: 10px;}
 	#container .search_two .layout .guanzhu a{display:block;width:100%;height:100%;border-radius: 10px;}
 	#container .search_two .layout .se_two{position:absolute;width: 230px;height: 55px;z-index: 2;top: 25px;
-    left: 530px;background: url(../img/searchborder.png) no-repeat;}
+    left: 375px;background: url(../img/searchborder.png) no-repeat;}
 	#container .search_two .layout .se_two input{width: 85%;border-radius: 10px;height: 23px;border: 0px;
     margin-top: 2px;margin-left: 2px;text-align: center;}
 	#container .search_two .layout .se_two p{text-align: center;line-height: 30px;}
